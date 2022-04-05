@@ -1,0 +1,5 @@
+﻿Build Image - docker build --pull --rm -f "Dockerfile" -t <dockerhub-username>/<name-of-app> "."
+
+Push Image to dockerhub  - docker push <dockerhub-username>/<name-of-app>
+
+Create dopleyment - kubectl apply -f <name-of-yaml-file>
